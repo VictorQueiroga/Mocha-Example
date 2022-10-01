@@ -41,7 +41,7 @@ Check the image below to see the results so far:
 
 # Production code for area
 
-Failing in our test case let's return to our production file and create a class "sphere" where we are going to define a method "area" that receives an input "r" which is the radio and returns the result of the area of the sphere that is calculated through the formula "4*3.14*r*r", in the end of the file we need to export the module sphere we just created, see in the image below:
+Failing in our test case let's return to our production file and create a class "sphere" where we are going to define a method "area" that receives an input "r" which is the radio and returns the result of the area of the sphere that is calculated through the formula "4 times 3.14 times r times r", in the end of the file we need to export the module sphere we just created, see in the image below:
 
 ![Area production](https://github.com/VictorQueiroga/Mocha-Example/blob/main/assets/areaProduction.png)
 
@@ -61,7 +61,7 @@ Running with mocha we can see that the test fails because the function volume is
 
 # Production code for volume
 
-Now we write the method volume in the production file to return the formula  (4*3.14*r*r*r)/3:
+Now we write the method volume in the production file to return the formula  (4 times 3.14 times r times r times r) divided by 3:
 
 ![Volume production code](https://github.com/VictorQueiroga/Mocha-Example/blob/main/assets/productionCodeVolume.png)
 
