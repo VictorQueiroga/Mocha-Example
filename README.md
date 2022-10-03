@@ -75,7 +75,7 @@ Now we execute mocha and all tests should pass:
 
 Refactoring our code we could create a set up method for our test cases, so we can define a function from mocha called "before" inside our describe block "Test sphere" to initiate something that all the cases of the suite going to use, in our case we can instantiate the sphere class:
 
-![Set up](https://github.com/VictorQueiroga/Mocha-Example/blob/main/assets/creatingSetUp.png)
+![Set up](https://github.com/VictorQueiroga/Mocha-Example/blob/main/assets/SetUp.png)
 
 # Testing
 Whenever you want execute the test suite use "mocha" in terminal
